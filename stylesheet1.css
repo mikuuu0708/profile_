@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family:"Hiragino Maru Gothic Pro";
+}
+
+header{
+padding: 100px 0 100px 0;
+height: 150px;
+background-image:url("images/miku2.jpg");
+background-size:cover;
+padding:10px 20px;
+text-align:center;
+color:#3c3b3b
+
+}
+
+.top-wrapper{
+    padding-top: 30px;    
+    }
+
+.introduce{
+ text-align:center;
+ color:#3c3b3b
+ 
+}

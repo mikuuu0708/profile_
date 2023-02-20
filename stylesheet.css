@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family:"Hiragino Maru Gothic Pro";
+}
+
+.flex {
+    padding-top: 40px; 
+    padding-left: 350px;
+    display: flex; 
+    color:#3c3b3b
+   
+    
+}
+.flex .image {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.flex .text {
+    
+    padding-left: 30px;
+    padding-bottom: 30px;
+}    
+
+li{
+    list-style: none;   
+    font-size:13px; 
+}
+span{
+    padding: 7px 7px;
+    border-radius: 10px;
+    font-size:13px;
+    color:white 
+}
+a {
+    text-decoration:none; 
+}
+
+.contents{
+text-align:center;  
+padding-top: 20px;
+}

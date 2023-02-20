@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    font-family:"Hiragino Maru Gothic Pro";
+}
+
+header{
+padding: 200px 0;
+height: 150px;
+background-image:url("images/miku2.jpg");
+background-size:cover;
+padding:0px 20px;
+text-align:center;
+color:#3c3b3b
+}
+
+
+.top-wrapper{
+    padding-top: 30px;    
+}
+
+.year h3{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.year{
+    padding-left:20px;  
+    padding-right: 20px; 
+    color: #3c3b3b;
+
+}    
+
+
+ul{
+    display: flex;
+} 
+li{
+    list-style: none;
+}
+p{
+    font-size:12px;
+}
+span{
+    font-size:17px;
+    padding: 7px 7px;
+    border-radius: 10px;
+}

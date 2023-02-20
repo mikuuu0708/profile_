@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family:"Hiragino Maru Gothic Pro";
+}
+
+header{
+padding: 100px 0 100px 0;
+height: 150px;
+background-image:url("images/miku2.jpg");
+background-size:cover;
+padding:10px 20px;
+text-align:center;
+color:#3c3b3b
+}
+.top-wrapper{
+padding-top: 30px;    
+}
+
+.top{
+padding-top: 10px;    
+text-align:center;
+color:#3c3b3b
+
+}
+
+li{
+    list-style: none;
+}
+.wrap {
+    display:flex;
+    align-items: center;
+  　height: 400px;
+  　overflow: hidden;
+   background-color: floralwhite;
+  }
+  .slideshow {
+    display: flex;
+    animation: loop-slide 50s infinite linear 1s both;
+}
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+  }
+  .content {
+    width: 300px;
+    height: 400px;
+  }
+  .slide-paused:hover .slideshow {
+    animation-play-state: paused;
+  }
